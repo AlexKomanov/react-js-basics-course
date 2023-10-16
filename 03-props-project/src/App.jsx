@@ -7,9 +7,8 @@ function App() {
   return (
     <>
         <h1>Props Lesson</h1>
-        <Student />
-        <Student />
-        <Student />
+        <Student name="Alexander" age={30} isStudent={true}/>
+        <Student name="Ilay" age={5} isStudent={false}/>
     </>
   )
 }
